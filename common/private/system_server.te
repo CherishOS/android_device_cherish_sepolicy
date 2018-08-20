@@ -4,3 +4,5 @@ allow system_server storage_stub_file:dir getattr;
 hal_client_domain(system_server, hal_lineage_fod)
 hal_client_domain(system_server, hal_lineage_livedisplay)
 hal_client_domain(system_server, hal_lineage_touch)
+
+set_prop(system_server, shell_prop)
