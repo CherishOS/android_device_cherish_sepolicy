@@ -13,3 +13,6 @@ hal_client_domain(platform_app, hal_lineage_powershare)
 # Allow CPUInfo access to thermal
 allow platform_app sysfs_thermal:dir search;
 allow platform_app sysfs_thermal:file r_file_perms;
+
+# Allow theme_prop to be read by system ui
+get_prop(platform_app, theme_prop)
