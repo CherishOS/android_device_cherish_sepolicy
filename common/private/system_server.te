@@ -7,6 +7,8 @@ allow system_server pocket_service:service_manager { add find };
 allow system_server sysfs_dc_dim:file rw_file_perms;
 add_service(system_server, dc_dimming_service);
 
+add_service(system_server, applock_service);
+
 # Use HALs
 hal_client_domain(system_server, hal_lineage_fod)
 hal_client_domain(system_server, hal_lineage_livedisplay)
