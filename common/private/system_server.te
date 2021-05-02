@@ -16,6 +16,9 @@ hal_client_domain(system_server, hal_lineage_powershare)
 # Let system server find auxiliary camera properties
 get_prop(system_server, vendor_persist_camera_prop)
 
+# Global cleartext feature
+allow system_server system_exported_cleartext_prop:property_service set;
+
 # Let system server toggle xtra-daemon
 set_prop(system_server, xtra_control_prop)
 

@@ -10,3 +10,6 @@ system_internal_prop(custom_version_prop)
 
 # Recovery update
 system_internal_prop(recovery_update_prop)
+
+# Global cleartext feature
+system_restricted_prop(system_exported_cleartext_prop);
