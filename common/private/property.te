@@ -1,1 +1,2 @@
 type recovery_update_prop, property_type, extended_core_property_type;
+type wfd_legacy_video_mode_prop, property_type;
