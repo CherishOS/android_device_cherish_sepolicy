@@ -43,3 +43,7 @@ get_prop(platform_app, pm_archiving_enabled_prop)
 # Access zram sysfs
 allow platform_app sysfs_zram:dir r_dir_perms;
 allow platform_app sysfs_zram:file r_file_perms;
+
+# allow systemui to set boot animation colors
+get_prop(platform_app, bootanim_system_prop)
+set_prop(platform_app, bootanim_system_prop)
