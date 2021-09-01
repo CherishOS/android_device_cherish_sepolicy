@@ -1,0 +1,5 @@
+# HWBinder IPC from client to server
+binder_call(hal_chargecontrol_client, hal_chargecontrol_server)
+
+add_hwservice(hal_chargecontrol_server, hal_chargecontrol_hwservice)
+allow hal_chargecontrol_client hal_chargecontrol_hwservice:hwservice_manager find;
