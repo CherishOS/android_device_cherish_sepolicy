@@ -3,4 +3,4 @@ user=_app isPrivApp=true seinfo=mediashell domain=mediashell_app name=com.google
 user=_app isPrivApp=true seinfo=mediashell domain=mediashell_app name=com.google.android.apps.mediashell:* type=privapp_data_file levelFrom=all
 
 # Updater
-user=_app isPrivApp=true seinfo=platform name=org.lineageos.updater domain=updater_app type=app_data_file levelFrom=user
+user=_app isPrivApp=true seinfo=platform name=com.cherish.updater domain=updater_app type=app_data_file levelFrom=user
