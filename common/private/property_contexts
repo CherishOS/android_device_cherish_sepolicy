@@ -9,3 +9,6 @@ ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
 #persist.vendor.recovery_update         u:object_r:recovery_update_prop:s0
 
 persist.wfd.legacy.video.mode    u:object_r:exported_system_prop:s0
+
+# PowerUsage Provider Google
+persist.powerusage_provider_google     u:object_r:exported_system_prop:s0
