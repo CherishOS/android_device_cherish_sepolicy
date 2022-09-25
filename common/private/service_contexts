@@ -16,3 +16,6 @@ app_lock                                      u:object_r:app_lock_service:s0
 
 #Parallel space
 parallel                                  u:object_r:parallel_space_manager_service:s0
+
+# Linearmotor Vibrator
+linearmotor                               u:object_r:linearmotor_vibrator_service:s0
