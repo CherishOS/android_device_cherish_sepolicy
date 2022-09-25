@@ -10,3 +10,6 @@ type lineage_trust_service, system_api_service, system_server_service, service_m
 type parallel_space_manager_service, system_api_service, system_server_service, service_manager_type;
 
 type pocket_service, system_api_service, system_server_service, service_manager_type;
+
+# Linearmotor Vibrator
+type linearmotor_vibrator_service, system_api_service, system_server_service, service_manager_type;
