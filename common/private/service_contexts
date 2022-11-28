@@ -13,3 +13,6 @@ pocket                                    u:object_r:pocket_service:s0
 
 # App lock
 app_lock                                      u:object_r:app_lock_service:s0
+
+#Parallel space
+parallel                                  u:object_r:parallel_space_manager_service:s0
