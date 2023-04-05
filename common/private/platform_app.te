@@ -23,3 +23,5 @@ allow platform_app recovery_service:service_manager find;
 
 # Allow externalstorage access
 allow platform_app mnt_pass_through_file:dir { create_dir_perms mounton };
+
+r_dir_file(platform_app, sysfs_zram);
