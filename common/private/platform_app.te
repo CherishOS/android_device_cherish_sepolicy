@@ -24,4 +24,7 @@ allow platform_app recovery_service:service_manager find;
 # Allow externalstorage access
 allow platform_app mnt_pass_through_file:dir { create_dir_perms mounton };
 
+# Allow reading kernel config for meminfo zram check
+allow platform_app config_gz:file read;
+
 r_dir_file(platform_app, sysfs_zram);
