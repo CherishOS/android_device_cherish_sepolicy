@@ -18,3 +18,6 @@ persist.wfd.legacy.video.mode    u:object_r:exported_system_prop:s0
 
 # PowerUsage Provider Google
 persist.powerusage_provider_google     u:object_r:exported_system_prop:s0
+
+# Tethering
+persist.device_config.tethering.        u:object_r:device_config_tethering_prop:s0
