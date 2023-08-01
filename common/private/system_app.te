@@ -17,3 +17,6 @@ set_prop(system_app, exported_system_prop)
 
 # Read selinux status
 allow system_app selinuxfs:file r_file_perms;
+
+# Allow externalstorage access
+allow system_app mnt_pass_through_file:dir { create_dir_perms mounton };
