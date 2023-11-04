@@ -12,3 +12,6 @@ set_prop(system_app, recovery_update_prop)
 
 # Read selinux status
 allow system_app selinuxfs:file r_file_perms;
+
+# Allow Settings to read default navbar prop
+get_prop(system_app, qemu_hw_prop)
