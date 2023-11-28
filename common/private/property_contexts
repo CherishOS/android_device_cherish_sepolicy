@@ -25,6 +25,3 @@ persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact boo
 
 # Tethering
 persist.device_config.tethering.        u:object_r:device_config_tethering_prop:s0
-
-# WiFi
-wifi.interface.                        u:object_r:wifi_hal_prop:s0 prefix string
