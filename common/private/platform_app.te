@@ -47,3 +47,6 @@ allow platform_app sysfs_zram:file r_file_perms;
 # allow systemui to set boot animation colors
 get_prop(platform_app, bootanim_system_prop)
 set_prop(platform_app, bootanim_system_prop)
+
+# Allow storage access to files app
+allow platform_app mnt_pass_through_file:dir { getattr search };
