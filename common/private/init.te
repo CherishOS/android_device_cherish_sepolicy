@@ -1,0 +1,2 @@
+allow init sysfs_devices_system_cpu:file rw_file_perms;
+allow init sysfs_transparent_hugepage:file rw_file_perms;
