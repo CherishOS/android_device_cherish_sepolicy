@@ -17,15 +17,6 @@ ro.vendor.audio.dolby.dax.support      u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.dax.version      u:object_r:exported_system_prop:s0
 ro.vendor.audio.dolby.surround.enable  u:object_r:exported_system_prop:s0
 
-# Custom legal URL
-ro.lineagelegal.url                    u:object_r:legal_url_prop:s0
-
-# Custom version
-ro.lineage.version                     u:object_r:custom_version_prop:s0
-ro.lineage.display.version             u:object_r:custom_version_prop:s0
-ro.lineage.build.version               u:object_r:custom_version_prop:s0
-ro.lineage.releasetype                 u:object_r:custom_version_prop:s0
-
 # Radio
 ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
 
